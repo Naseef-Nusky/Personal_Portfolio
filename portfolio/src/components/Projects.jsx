@@ -10,7 +10,7 @@ const Projects = () => {
         className="max-w-screen-lg mx-auto flex flex-col items-center justify-center px-4"
       >
         <div className="text-white flex flex-col justify-center">
-          <div className="flex justify-center items-center text-center mt-20">
+          <div className="flex justify-center items-center text-center  mt-20 ">
             <div className="flex flex-col gap-2 font-titleFont mb-5">
               <h1 className="text-4xl md:text-5xl text-gray-300 font-bold capitalize">
                 My Projects
