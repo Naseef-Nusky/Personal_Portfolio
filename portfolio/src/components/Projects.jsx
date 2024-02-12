@@ -4,7 +4,7 @@ import E_commerce from '../assets/E_commerce.jpg';
 
 const Projects = () => {
   return (
-    <div className="w-full bg-gradient-to-b from-black to-gray-800 text-white">
+    <div className="w-full bg-gradient-to-b from-black to-gray-800 text-white pb-20">
       <div
         name="projects"
         className="max-w-screen-lg mx-auto flex flex-col items-center justify-center px-4"
