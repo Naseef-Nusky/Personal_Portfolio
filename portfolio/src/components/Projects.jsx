@@ -1,7 +1,8 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import E_commerce from '../assets/E_commerce.jpg';
-
+import E_commerce from '../assets/E-com.webp';
+import SuperMarket from '../assets/SuperMarket.png'
+import CEM from '../assets/cem.jpg'
 const Projects = () => {
   return (
     <div className="w-full bg-gradient-to-b from-black to-gray-800 text-white pb-20">
@@ -25,10 +26,12 @@ const Projects = () => {
               githubLink="https://github.com/CodingComrades20/CEM-System"
             />
             <ProjectCard
+              src={SuperMarket}
               title="E-commerce Website"
               des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
             />
             <ProjectCard
+            src={CEM}
               title="Chatting App"
               des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
             />
