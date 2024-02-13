@@ -11,14 +11,17 @@ function About() {
           About
         </h1>
       </div>
-<div class="flex flex-col justify-center items-center max-w-[1000px] mx-auto">
-  <div class="w-full flex flex-col items-center">
+
+  <div class="grid md:grid-cols-2 items-center gap-20 px-20  ">
+    <div>
     <img
       src={Profile2}
       alt="profile2"
-      class="rounded-full w-72 h-72 mx-auto"
+      class="rounded-full h-94 W-full"
     />
-    <p class="text-center text-lg md:text-xl mt-10 px-4">
+    </div>
+    <div>
+    <p class="text-center text-lg md:text-xl">
       I am a passionate and motivated undergraduate who loves to explore
       and learn new technologies in the field of Information Technology.
       I am an ambitious person who has developed a mature and
@@ -27,10 +30,9 @@ function About() {
       satisfy the software engineer internship in order to gain valuable
       experience.
     </p>
+    </div>   
   </div>
 </div>
-
-    </div>
   );
 }
 
